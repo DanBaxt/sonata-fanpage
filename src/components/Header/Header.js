@@ -1,10 +1,13 @@
 import React from "react";
+
 import "./Header.css";
 
-const Header = (props) => (
-  <footer className="header">
-    <span>Sonata Arctica Fanpage!</span>
-  </footer>
+
+const Jumbotron = () => (
+  <header className="header">
+ <h1>Sonata Arctica WebPage!</h1>
+  </header>
 );
 
-export default Header;
+
+export default Jumbotron;

@@ -8,7 +8,7 @@ const Navbar = props => (
     <Link className="navbar-brand" to="/">
       Explore
     </Link>
-    <div>
+   
       <ul className="navbar-nav">
         <li
           className={
@@ -45,7 +45,7 @@ const Navbar = props => (
           </Link>
         </li>
       </ul>
-    </div>
+    
   </nav>
 );
 
