@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
-import Navbar from "./components/Navbar";
+import CarouselA from "./components/Carousel";
 import Jumbotron from "./components/Header";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
@@ -12,7 +11,7 @@ const App = () => (
   <Router>
     <div>
       <Jumbotron />
-      <Navbar />
+      <CarouselA />
       <Wrapper>
 
       </Wrapper>
