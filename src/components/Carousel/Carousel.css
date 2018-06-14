@@ -67,9 +67,8 @@
     margin-top: -13px;
     font-size: 18px; }
   .carousel .thumbs-wrapper {
-    width: 60%;
     margin: 20px;
-   }
+    overflow: hidden; }
   .carousel .thumbs {
     -webkit-transition: all 0.15s ease-in;
     -moz-transition: all 0.15s ease-in;
@@ -118,7 +117,7 @@
   .carousel .slider-wrapper {
     overflow: hidden;
     margin: auto;
-    width: 60%;
+    width: 100%;
     -webkit-transition: height 0.15s ease-in;
     -moz-transition: height 0.15s ease-in;
     -ms-transition: height 0.15s ease-in;
