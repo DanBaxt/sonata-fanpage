@@ -19,9 +19,7 @@ const App = () => (
       <CarouselA />
       
       <Jumbo />
-      <Wrapper>
-
-      </Wrapper>
+     
       <CarouselPage />
       <Footer />
     </div>
